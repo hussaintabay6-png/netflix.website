@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netflix Clone</title>
+
+    <link rel="stylesheet" href="lokii.css">
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <div class="hero-backdrop" aria-hidden="true">
+            <div class="backdrop-column">
+                <img src="https://image.tmdb.org/t/p/w500/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/595/1489169.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="">
+            </div>
+            <div class="backdrop-column">
+                <img src="https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/576/1440521.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/619/1547768.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg" alt="">
+            </div>
+            <div class="backdrop-column">
+                <img src="https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/586/1466410.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" alt="">
+            </div>
+            <div class="backdrop-column">
+                <img src="https://image.tmdb.org/t/p/w500/1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/632/1580063.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/498/1245274.jpg" alt="">
+                <img src="https://static.tvmaze.com/uploads/images/original_untouched/376/940830.jpg" alt="">
+                <img src="https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" alt="">
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="logo">NETFLIX</div>
+
+            <div class="nav-right">
+                <select class="language">
+                    <option>English</option>
+                    <option>Español</option>
+                </select>
+
+                <button class="sign-in">Sign In</button>
+            </div>
+        </nav>
+
+
+        <div class="hero-content">
+
+            <h1>Unlimited movies,<br>TV shows, and more</h1>
+
+            <h2>Watch anywhere. Cancel anytime.</h2>
+
+            <p>
+                Ready to watch? Enter your email to create or restart
+                your membership.
+            </p>
+
+            <div class="signup-box">
+                <input
+                    type="email"
+                    placeholder="Email address"
+                >
+
+                <button class="get-started">
+                    Get Started
+                    <span>›</span>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    
+
+    <div class="gradient-line"></div>
+
+
+    <section class="movies-section">
+
+        <h2>Trending Now</h2>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg"
+                    alt="Moana 2"
+                >
+                <span class="movie-number">1</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
+                    alt="The Wild Robot"
+                >
+                <span class="movie-number">2</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
+                    alt="Deadpool and Wolverine"
+                >
+                <span class="movie-number">3</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg"
+                    alt="Despicable Me 4"
+                >
+                <span class="movie-number">4</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+                    alt="Barbie"
+                >
+                <span class="movie-number">5</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
+                    alt="Inside Out 2"
+                >
+                <span class="movie-number">6</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+                    alt="Avengers"
+                >
+                <span class="movie-number">7</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
+                    alt="The Shawshank Redemption"
+                >
+                <span class="movie-number">8</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg"
+                    alt="Inception"
+                >
+                <span class="movie-number">9</span>
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+                    alt="The Dark Knight"
+                >
+                <span class="movie-number">10</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="movies-section">
+
+        <h2>Popular on Netflix</h2>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/595/1489169.jpg"
+                    alt="Stranger Things"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/586/1466410.jpg"
+                    alt="Wednesday"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/576/1440521.jpg"
+                    alt="Squid Game"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/376/940830.jpg"
+                    alt="Money Heist"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/594/1486674.jpg"
+                    alt="The Witcher"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/632/1580063.jpg"
+                    alt="The Crown"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/619/1547768.jpg"
+                    alt="The Boys"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg"
+                    alt="Breaking Bad"
+                >
+            </div>
+
+            <div class="movie-card">
+                <img
+                    src="https://static.tvmaze.com/uploads/images/original_untouched/498/1245274.jpg"
+                    alt="Game of Thrones"
+                >
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="features">
+
+        <h2>More reasons to join</h2>
+
+        <div class="feature-container">
+
+            <div class="feature-box">
+                <input class="feature-toggle" type="checkbox" aria-label="Show more about Enjoy on your TV">
+                <div class="feature-content">
+                    <h3>Enjoy on your TV</h3>
+                    <p>
+                        Watch on Smart TVs, PlayStation, Xbox,
+                        Chromecast, Apple TV, Blu-ray players and more.
+                    </p>
+                    <p class="feature-extra">
+                        Enjoy your favourite titles on the big screen with
+                        compatible streaming devices.
+                    </p>
+                    <div class="feature-icon">🖥️</div>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <input class="feature-toggle" type="checkbox" aria-label="Show more about Download your shows">
+                <div class="feature-content">
+                    <h3>Download your shows</h3>
+                    <p>
+                        Save your favourites easily and always
+                        have something to watch.
+                    </p>
+                    <p class="feature-extra">
+                        Download selected titles to supported devices and
+                        watch when you are offline.
+                    </p>
+                    <div class="feature-icon">⬇️</div>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <input class="feature-toggle" type="checkbox" aria-label="Show more about Watch everywhere">
+                <div class="feature-content">
+                    <h3>Watch everywhere</h3>
+                    <p>
+                        Stream unlimited movies and TV shows
+                        on your phone, tablet, laptop and TV.
+                    </p>
+                    <p class="feature-extra">
+                        Start watching on one device and continue on
+                        another wherever you go.
+                    </p>
+                    <div class="feature-icon">🚀</div>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <input class="feature-toggle" type="checkbox" aria-label="Show more about profiles for kids">
+                <div class="feature-content">
+                    <h3>Create profiles for kids</h3>
+                    <p>
+                        Send kids on adventures with their favourite
+                        characters in a space made just for them.
+                    </p>
+                    <p class="feature-extra">
+                        Kids profiles can be tailored with age-appropriate
+                        entertainment.
+                    </p>
+                    <div class="feature-icon">🎁</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="faq-section">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>What is Netflix?</summary>
+                <p>
+                    Netflix is a streaming service with a wide variety of
+                    movies, TV shows, documentaries and more.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How much does Netflix cost?</summary>
+                <p>
+                    Netflix offers different plans. Pricing and plan
+                    availability depend on your country and subscription.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Where can I watch?</summary>
+                <p>
+                    Watch on internet-connected TVs, phones, tablets,
+                    computers and other supported streaming devices.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How do I cancel?</summary>
+                <p>
+                    You can manage or cancel your membership from your
+                    account settings.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>What can I watch on Netflix?</summary>
+                <p>
+                    Browse movies, series, documentaries and other titles
+                    available in your region.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Is Netflix good for kids?</summary>
+                <p>
+                    Kids profiles and parental controls help families choose
+                    age-appropriate shows and movies.
+                </p>
+            </details>
+        </div>
+
+    </section>
+
+
+    
+    <footer>
+        <p class="questions">
+            Questions? Contact us.
+        </p>
+
+        <div class="footer-links">
+
+            <div>
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+
+            <div>
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+
+            <div>
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+
+            <div>
+                <a href="#">Media Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+        </div>
+
+        <select class="footer-language">
+            <option>🌐 English</option>
+        </select>
+
+        <p class="copyright">
+            Netflix Clone — Made for learning purposes
+        </p>
+
+    </footer>
+
+</body>
+</html>
